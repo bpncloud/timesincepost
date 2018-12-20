@@ -1,0 +1,19 @@
+{
+  "name": "timesincepost",
+  "version": "1.0.1",
+  "description": "Number of mins hours days years since post in descriptor ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bpncloud/timesincepost.git"
+  },
+  "author": "BPN Cloud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpncloud/timesincepost/issues"
+  },
+  "homepage": "https://github.com/bpncloud/timesincepost#readme"
+}
