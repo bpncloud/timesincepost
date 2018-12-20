@@ -28,7 +28,13 @@ function timesincepost(postdate) {
             //less than 1 week
             if(days==0){
                   if(hours==0){
+                    
+                    if(minutes>0)
                     _print = minutes+'m';       
+                    else
+                    _print = 'Just now';       
+                        
+
                   }else{
                     _print = hours+'h';     
                   }  
