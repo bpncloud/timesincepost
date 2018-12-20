@@ -16,18 +16,18 @@ function timesincepost(postdate) {
     var hours = Date.DateDiff('h', pdate, today);
     var days = Date.DateDiff('d', pdate, today);
     var weeks = Date.DateDiff('w', pdate, today);
-
+    
     var _print = '';
     
     if(weeks>=52)
     _print = Math.floor(weeks/52)+'y'; 
-    if(weeks<52){
+    if(weeks<52){ 
         if(weeks>1){
             _print = weeks+'w';   
         }else{
             //less than 1 week
-            if(days==0){
-                  if(hours==0){
+            if(days<=0){  
+                  if(hours<=0){ 
                     
                     if(minutes>0)
                     _print = minutes+'m';       
@@ -40,7 +40,7 @@ function timesincepost(postdate) {
                   }  
             }else{
                 _print = days+'d';     
-            }
+            }  
         }
 
     }
